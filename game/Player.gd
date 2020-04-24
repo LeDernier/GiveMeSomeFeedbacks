@@ -31,7 +31,7 @@ func _process(delta):
 
 # Draw
 func _draw():
-	draw_circle(Vector2(0.0, 0.0), $CollisionShape2D.shape.radius, Color(1.0, 1.0, 1.0))
+	draw_circle(Vector2(0.0, 0.0), $CollisionShape2D.shape.radius, Color(0.25, 0.5, 0.25))
 	if EYE:
 		var vect = Vector2(0.0, 0.0)
 		var d = 10000000
@@ -41,8 +41,8 @@ func _draw():
 			if d_test < d:
 				vect = vect_test
 				d = d_test
-		draw_circle(vect.normalized() * $CollisionShape2D.shape.radius * 0.5, $CollisionShape2D.shape.radius * 0.7, Color(0.0, 0.5, 1.0))
-		draw_circle(vect.normalized() * ($CollisionShape2D.shape.radius* 0.7), $CollisionShape2D.shape.radius * 0.3, Color(0.0, 0.0, 0.0))
+		draw_circle(vect.normalized() * $CollisionShape2D.shape.radius * 0.5, $CollisionShape2D.shape.radius * 0.5, Color(0.7, 0.7, 0.35))
+		draw_circle(vect.normalized() * ($CollisionShape2D.shape.radius* 0.7), $CollisionShape2D.shape.radius * 0.2, Color(1.0, 1.0, 1.0))
 		
 func _on_Player_body_entered(body):
 	# Managing signals

@@ -16,7 +16,7 @@ func _process(delta):
 
 # Draw
 func _draw():
-	draw_circle(Vector2(0.0, 0.0), $CollisionShape2D.shape.radius, Color(1.0, 0.5, 0.0))
+	draw_circle(Vector2(0.0, 0.0), $CollisionShape2D.shape.radius, Color(0.5, 0.25, 0.25))
 	
 func _on_Mob_body_entered(body):
 	# Managing signals

@@ -15,9 +15,13 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Give me some Feedbacks !"
+config/name="Feedbacks demo"
 run/main_scene="res://game/FeedBacks.tscn"
 config/icon="res://icon.png"
+
+[audio]
+
+default_bus_layout=""
 
 [display]
 
