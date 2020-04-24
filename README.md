@@ -1,4 +1,5 @@
-# GiveMeSomeFeedbacks
-Little game used to give a talk about the need of Feedbacks in video games. Made with [Godot Engine](https://godotengine.org/).
+# Feedbacks Demo
 
-The game is available [here](https://ledernier.itch.io/givemesomefeedbacks).
+Material used to give a talk to introduce the concept of feedbacks in video games. Made with [Godot Engine](https://godotengine.org/).
+
+A runing HTML5 version is available [here](https://ledernier.itch.io/feedbacks-demo).
